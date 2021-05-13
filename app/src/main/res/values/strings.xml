@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AADV</string>
+    <string name="nome_toolbar">José Gabriel</string>
+
+    <!-- Fragment Home -->
+    <string name="noticias">Notícias</string>
+    <string name="atividades">Atividades</string>
+    <string name="mensagens">Mensagens</string>
+    <string name="sos">SOS - Voluntário</string>
+
+    <!-- Fragment Noticias -->
+    <string name="noticias_gerais">Notícias gerais da AADV</string>
+    <string name="eventos_aadv">Eventos da AADV</string>
+    <string name="eventos_gerais">Eventos Gerais</string>
+    <string name="empregos">Empregos</string>
+    <string name="voltar">Voltar</string>
+
+    <!-- Fragment Atividades -->
+    <string name="minhas_atividades">Minhas atividades</string>
+    <string name="todas_atividades">Todas as atividades da AADV</string>
+
+    <!-- Fragment Todas as atividades -->
+    <string name="artesanato">Artesanato</string>
+    <string name="coral">Coral</string>
+    <string name="expressao_corporal">Expressão corporal</string>
+    <string name="psicologia">Psicologia</string>
+    <string name="braile">Braile</string>
+    <string name="informatica">Informática</string>
+    <string name="educacao_cidadania">Educação e cidadania</string>
+    <string name="assinatura">Assinatura</string>
+    <string name="atv_vida_auto">Atividade de vida autônoma</string>
+    <string name="orientacao_mobilidade">Orientação e mobilidade</string>
+    <string name="pag_inicial">Voltar à pagina inicial</string>
+
+    <!-- Fragment Mensagens -->
+    <string name="todas_mensagens">Todas as mensagens</string>
+    <string name="msg_nao_lidas">(12) Mensagens não lidas</string>
+
+    <!-- Fragment SOS -->
+
+
+</resources>

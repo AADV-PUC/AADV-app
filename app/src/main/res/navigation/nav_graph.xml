@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.pucminas.aadv.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_noticiasFragment"
+            app:destination="@id/noticiasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_atividadesFragment"
+            app:destination="@id/atividadesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mensagensFragment"
+            app:destination="@id/mensagensFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_SOSFragment"
+            app:destination="@id/SOSFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noticiasFragment"
+        android:name="com.pucminas.aadv.NoticiasFragment"
+        android:label="fragment_noticias"
+        tools:layout="@layout/fragment_noticias" />
+    <fragment
+        android:id="@+id/atividadesFragment"
+        android:name="com.pucminas.aadv.AtividadesFragment"
+        android:label="fragment_atividades"
+        tools:layout="@layout/fragment_atividades" >
+        <action
+            android:id="@+id/action_atividadesFragment_to_todasAtvFragment"
+            app:destination="@id/todasAtvFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mensagensFragment"
+        android:name="com.pucminas.aadv.MensagensFragment"
+        android:label="fragment_mensagens"
+        tools:layout="@layout/fragment_mensagens" >
+        <action
+            android:id="@+id/action_mensagensFragment_to_todasMensagensFragment"
+            app:destination="@id/todasMensagensFragment" />
+        <action
+            android:id="@+id/action_mensagensFragment_to_msgNaoLidasFragment"
+            app:destination="@id/msgNaoLidasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SOSFragment"
+        android:name="com.pucminas.aadv.SOSFragment"
+        android:label="fragment_s_o_s"
+        tools:layout="@layout/fragment_s_o_s" />
+    <fragment
+        android:id="@+id/todasAtvFragment"
+        android:name="com.pucminas.aadv.TodasAtvFragment"
+        android:label="fragment_todas_atv"
+        tools:layout="@layout/fragment_todas_atv" >
+        <action
+            android:id="@+id/action_todasAtvFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/todasMensagensFragment"
+        android:name="com.pucminas.aadv.TodasMensagensFragment"
+        android:label="fragment_todas_mensagens"
+        tools:layout="@layout/fragment_todas_mensagens" >
+        <action
+            android:id="@+id/action_todasMensagensFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/msgNaoLidasFragment"
+        android:name="com.pucminas.aadv.MsgNaoLidasFragment"
+        android:label="fragment_msg_nao_lidas"
+        tools:layout="@layout/fragment_msg_nao_lidas" >
+        <action
+            android:id="@+id/action_msgNaoLidasFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
